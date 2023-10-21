@@ -1,6 +1,6 @@
 # SMS spam detection using machine learning
 
-
+Live App: [SMS-Spam-Detection](https://sms-spam-detection-ckz0.onrender.com/)
 To Run this app
 
 - ```git clone https://github.com/SharathHebbar/SMS-spam-detection-using-machine-learning.git```
@@ -10,6 +10,14 @@ To Run this app
 Then navigate to
 
 - ```http://127.0.0.1:5000```
+
+To Dockerize this
+
+To publish this to dockerhub
+- ```docker build --tag username/tag_name .```
+
+Local
+- ```docker build --tag tag_name .``` 
 
 
 # SMS Spam Detection using Naive Bayes
