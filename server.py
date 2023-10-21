@@ -52,7 +52,7 @@ def detect():
         # else:
         #     op = 'The message is spam'
 
-        return render_template('welcome.html', op=op)
+        return render_template('index.html', op=op)
 
 
 if __name__ == '__main__':
